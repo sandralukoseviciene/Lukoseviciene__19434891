@@ -29,8 +29,48 @@ img {
  }
 
  i{
-     font-size: 48px;
+     font-size: 38px;
      color: blueviolet;
      
  }
+ 
+
+  nav {
+    margin: 30px;
+  }
+  
+  ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+ 
+  li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid 
+   #aaa;
+    padding: 0 20px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+ 
+  li a {
+    text-decoration: none;
+    color: blueviolet;
+    font: 18px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: blueviolet;
+  }
+
+  li.active a {
+    font-weight: bold;
+    color: blueviolet;
+  }
  
